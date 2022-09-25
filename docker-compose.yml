@@ -1,0 +1,6 @@
+services:
+  app:
+    image: 'zeljkodujmovic/spring-demo:latest'
+    container_name: spring-demo
+    ports:
+      - 8080:8080
